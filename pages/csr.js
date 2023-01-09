@@ -1,45 +1,40 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css';
 import Link from "next/link";
+import {useEffect, useState} from "react";
 
-export async function getServerSideProps(){
-	console.log("server");
-	return{
-		props: {
-			time: new Date().toISOString()
-		}
-	}
+export default function CSR() {
+	const [time, setTime] = useState();
+	useEffect(()=> {
+		setTime(new Date().toISOString())
+	}, [])
+	return (
+		<div className={styles.container}>
+			<Head>
+				<title>Create Next App</title>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
 
-}
+			<main>
+				<h1 className={styles.title}>
+					{time}
+				</h1>
+				<h2><Link href="/">Home</Link></h2>
+				<h2><Link href="/ssg">SSG로</Link></h2>
+			</main>
 
-export default function Home({ time }) {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+			<footer>
+				<a
+					href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Powered by{' '}
+					<img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+				</a>
+			</footer>
 
-      <main>
-        <h1 className={styles.title}>
-	        {time}
-        </h1>
-	      <h2><Link href="/csr">CSR로</Link></h2>
-	      <h2><Link href="/ssg">SSG로</Link></h2>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
-
-      <style jsx>{`
+			<style jsx>{`
         main {
           padding: 5rem 0;
           flex: 1;
@@ -76,7 +71,7 @@ export default function Home({ time }) {
         }
       `}</style>
 
-      <style jsx global>{`
+			<style jsx global>{`
         html,
         body {
           padding: 0;
@@ -89,6 +84,6 @@ export default function Home({ time }) {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
-  )
+		</div>
+	)
 }
