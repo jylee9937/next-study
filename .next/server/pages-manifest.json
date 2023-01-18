@@ -1,0 +1,10 @@
+{
+  "/csr": "pages/csr.html",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/isr": "pages/isr.js",
+  "/": "pages/index.js",
+  "/ssg": "pages/ssg.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
