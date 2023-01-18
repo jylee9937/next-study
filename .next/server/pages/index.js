@@ -1,257 +1,55 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 405;
-exports.ids = [405];
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
 exports.modules = {
 
-/***/ 4369:
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Home),
-/* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9399);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-
-async function getServerSideProps() {
-    console.log("server");
-    return {
-        props: {
-            time: new Date().toISOString()
-        }
-    };
-}
-function Home({ time  }) {
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_3___default().title),
-                children: time
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
-                    href: "/csr",
-                    children: "CSR로"
-                })
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
-                    href: "/ssg",
-                    children: "SSG로"
-                })
-            })
-        ]
-    });
-}
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ \"styled-jsx/style\");\n/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"jsx-f1021fd82b8aee62\" + \" \" + \"container\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        className: \"jsx-f1021fd82b8aee62\",\n                        children: \"Create Next App\"\n                    }, void 0, false, {\n                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                        lineNumber: 7,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        href: \"/favicon.ico\",\n                        className: \"jsx-f1021fd82b8aee62\"\n                    }, void 0, false, {\n                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                        lineNumber: 8,\n                        columnNumber: 5\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                lineNumber: 6,\n                columnNumber: 4\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: \"jsx-f1021fd82b8aee62\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                        className: \"jsx-f1021fd82b8aee62\" + \" \" + \"title\",\n                        children: [\n                            \"Welcome to \",\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                href: \"https://nextjs.org\",\n                                className: \"jsx-f1021fd82b8aee62\",\n                                children: \"Next.js!\"\n                            }, void 0, false, {\n                                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                lineNumber: 13,\n                                columnNumber: 17\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                        lineNumber: 12,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        className: \"jsx-f1021fd82b8aee62\" + \" \" + \"description\",\n                        children: [\n                            \"Get started by editing \",\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"code\", {\n                                className: \"jsx-f1021fd82b8aee62\",\n                                children: \"pages/index.js\"\n                            }, void 0, false, {\n                                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                lineNumber: 17,\n                                columnNumber: 29\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                        lineNumber: 16,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"jsx-f1021fd82b8aee62\" + \" \" + \"grid\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                href: \"https://nextjs.org/docs\",\n                                className: \"jsx-f1021fd82b8aee62\" + \" \" + \"card\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                        className: \"jsx-f1021fd82b8aee62\",\n                                        children: \"Documentation →\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                        lineNumber: 22,\n                                        columnNumber: 7\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"jsx-f1021fd82b8aee62\",\n                                        children: \"Find in-depth information about Next.js features and API.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                        lineNumber: 23,\n                                        columnNumber: 7\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                lineNumber: 21,\n                                columnNumber: 6\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                href: \"https://nextjs.org/learn\",\n                                className: \"jsx-f1021fd82b8aee62\" + \" \" + \"card\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                        className: \"jsx-f1021fd82b8aee62\",\n                                        children: \"Learn →\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                        lineNumber: 27,\n                                        columnNumber: 7\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"jsx-f1021fd82b8aee62\",\n                                        children: \"Learn about Next.js in an interactive course with quizzes!\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                        lineNumber: 28,\n                                        columnNumber: 7\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                lineNumber: 26,\n                                columnNumber: 6\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                href: \"https://github.com/vercel/next.js/tree/master/examples\",\n                                className: \"jsx-f1021fd82b8aee62\" + \" \" + \"card\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                        className: \"jsx-f1021fd82b8aee62\",\n                                        children: \"Examples →\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                        lineNumber: 35,\n                                        columnNumber: 7\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"jsx-f1021fd82b8aee62\",\n                                        children: \"Discover and deploy boilerplate example Next.js projects.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                        lineNumber: 36,\n                                        columnNumber: 7\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                lineNumber: 31,\n                                columnNumber: 6\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                href: \"https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\",\n                                className: \"jsx-f1021fd82b8aee62\" + \" \" + \"card\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                        className: \"jsx-f1021fd82b8aee62\",\n                                        children: \"Deploy →\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                        lineNumber: 43,\n                                        columnNumber: 7\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"jsx-f1021fd82b8aee62\",\n                                        children: \"Instantly deploy your Next.js site to a public URL with Vercel.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                        lineNumber: 44,\n                                        columnNumber: 7\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                                lineNumber: 39,\n                                columnNumber: 6\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                        lineNumber: 20,\n                        columnNumber: 5\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                lineNumber: 11,\n                columnNumber: 4\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n                className: \"jsx-f1021fd82b8aee62\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                    href: \"https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\",\n                    target: \"_blank\",\n                    rel: \"noopener noreferrer\",\n                    className: \"jsx-f1021fd82b8aee62\",\n                    children: [\n                        \"Powered by\",\n                        \" \",\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                            src: \"/vercel.svg\",\n                            alt: \"Vercel\",\n                            className: \"jsx-f1021fd82b8aee62\" + \" \" + \"logo\"\n                        }, void 0, false, {\n                            fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                            lineNumber: 58,\n                            columnNumber: 6\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                    lineNumber: 52,\n                    columnNumber: 5\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n                lineNumber: 51,\n                columnNumber: 4\n            }, this),\n            (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default()), {\n                id: \"ecdea01b755d709\",\n                children: \".container.jsx-f1021fd82b8aee62{min-height:100vh;padding:0 .5rem;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}main.jsx-f1021fd82b8aee62{padding:5rem 0;-webkit-box-flex:1;-webkit-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}footer.jsx-f1021fd82b8aee62{width:100%;height:100px;border-top:1px solid#eaeaea;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}footer.jsx-f1021fd82b8aee62 img.jsx-f1021fd82b8aee62{margin-left:.5rem}footer.jsx-f1021fd82b8aee62 a.jsx-f1021fd82b8aee62{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}a.jsx-f1021fd82b8aee62{color:inherit;text-decoration:none}.title.jsx-f1021fd82b8aee62 a.jsx-f1021fd82b8aee62{color:#0070f3;text-decoration:none}.title.jsx-f1021fd82b8aee62 a.jsx-f1021fd82b8aee62:hover,.title.jsx-f1021fd82b8aee62 a.jsx-f1021fd82b8aee62:focus,.title.jsx-f1021fd82b8aee62 a.jsx-f1021fd82b8aee62:active{text-decoration:underline}.title.jsx-f1021fd82b8aee62{margin:0;line-height:1.15;font-size:4rem}.title.jsx-f1021fd82b8aee62,.description.jsx-f1021fd82b8aee62{text-align:center}.description.jsx-f1021fd82b8aee62{line-height:1.5;font-size:1.5rem}code.jsx-f1021fd82b8aee62{background:#fafafa;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:.75rem;font-size:1.1rem;font-family:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace}.grid.jsx-f1021fd82b8aee62{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;max-width:800px;margin-top:3rem}.card.jsx-f1021fd82b8aee62{margin:1rem;-webkit-flex-basis:45%;-ms-flex-preferred-size:45%;flex-basis:45%;padding:1.5rem;text-align:left;color:inherit;text-decoration:none;border:1px solid#eaeaea;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-transition:color.15s ease,border-color.15s ease;-moz-transition:color.15s ease,border-color.15s ease;-o-transition:color.15s ease,border-color.15s ease;transition:color.15s ease,border-color.15s ease}.card.jsx-f1021fd82b8aee62:hover,.card.jsx-f1021fd82b8aee62:focus,.card.jsx-f1021fd82b8aee62:active{color:#0070f3;border-color:#0070f3}.card.jsx-f1021fd82b8aee62 h3.jsx-f1021fd82b8aee62{margin:0 0 1rem 0;font-size:1.5rem}.card.jsx-f1021fd82b8aee62 p.jsx-f1021fd82b8aee62{margin:0;font-size:1.25rem;line-height:1.5}.logo.jsx-f1021fd82b8aee62{height:1em}@media(max-width:600px){.grid.jsx-f1021fd82b8aee62{width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column}}\"\n            }, void 0, false, void 0, this),\n            (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default()), {\n                id: \"b0cffc484a2fa82a\",\n                children: \"html,body{padding:0;margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}\"\n            }, void 0, false, void 0, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/a123123/WebstormProjects/next-study/nextjs-blog/pages/index.js\",\n        lineNumber: 5,\n        columnNumber: 3\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUE7O0FBQTRCO0FBRWIsU0FBU0MsT0FBTztJQUM5QixxQkFDQyw4REFBQ0M7a0RBQWM7OzBCQUNkLDhEQUFDRixrREFBSUE7O2tDQUNKLDhEQUFDRzs7a0NBQU07Ozs7OztrQ0FDUCw4REFBQ0M7d0JBQUtDLEtBQUk7d0JBQU9DLE1BQUs7Ozs7Ozs7Ozs7Ozs7MEJBR3ZCLDhEQUFDQzs7O2tDQUNBLDhEQUFDQztrRUFBYTs7NEJBQVE7MENBQ1YsOERBQUNDO2dDQUFFSCxNQUFLOzswQ0FBcUI7Ozs7Ozs7Ozs7OztrQ0FHekMsOERBQUNJO2tFQUFZOzs0QkFBYzswQ0FDSCw4REFBQ0M7OzBDQUFLOzs7Ozs7Ozs7Ozs7a0NBRzlCLDhEQUFDVDtrRUFBYzs7MENBQ2QsOERBQUNPO2dDQUFFSCxNQUFLOzBFQUFvQzs7a0RBQzNDLDhEQUFDTTs7a0RBQUc7Ozs7OztrREFDSiw4REFBQ0Y7O2tEQUFFOzs7Ozs7Ozs7Ozs7MENBR0osOERBQUNEO2dDQUFFSCxNQUFLOzBFQUFxQzs7a0RBQzVDLDhEQUFDTTs7a0RBQUc7Ozs7OztrREFDSiw4REFBQ0Y7O2tEQUFFOzs7Ozs7Ozs7Ozs7MENBR0osOERBQUNEO2dDQUNBSCxNQUFLOzBFQUNLOztrREFFViw4REFBQ007O2tEQUFHOzs7Ozs7a0RBQ0osOERBQUNGOztrREFBRTs7Ozs7Ozs7Ozs7OzBDQUdKLDhEQUFDRDtnQ0FDQUgsTUFBSzswRUFDSzs7a0RBRVYsOERBQUNNOztrREFBRzs7Ozs7O2tEQUNKLDhEQUFDRjs7a0RBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzswQkFPTiw4REFBQ0c7OzBCQUNBLDRFQUFDSjtvQkFDQUgsTUFBSztvQkFDTFEsUUFBTztvQkFDUFQsS0FBSTs7O3dCQUNKO3dCQUNXO3NDQUNYLDhEQUFDVTs0QkFBSUMsS0FBSTs0QkFBY0MsS0FBSTtzRUFBbUI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFtSW5ELENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9pbmRleC5qcz9iZWU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcblx0cmV0dXJuIChcblx0XHQ8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuXHRcdFx0PEhlYWQ+XG5cdFx0XHRcdDx0aXRsZT5DcmVhdGUgTmV4dCBBcHA8L3RpdGxlPlxuXHRcdFx0XHQ8bGluayByZWw9XCJpY29uXCIgaHJlZj1cIi9mYXZpY29uLmljb1wiIC8+XG5cdFx0XHQ8L0hlYWQ+XG5cblx0XHRcdDxtYWluPlxuXHRcdFx0XHQ8aDEgY2xhc3NOYW1lPVwidGl0bGVcIj5cblx0XHRcdFx0XHRXZWxjb21lIHRvIDxhIGhyZWY9XCJodHRwczovL25leHRqcy5vcmdcIj5OZXh0LmpzITwvYT5cblx0XHRcdFx0PC9oMT5cblxuXHRcdFx0XHQ8cCBjbGFzc05hbWU9XCJkZXNjcmlwdGlvblwiPlxuXHRcdFx0XHRcdEdldCBzdGFydGVkIGJ5IGVkaXRpbmcgPGNvZGU+cGFnZXMvaW5kZXguanM8L2NvZGU+XG5cdFx0XHRcdDwvcD5cblxuXHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cImdyaWRcIj5cblx0XHRcdFx0XHQ8YSBocmVmPVwiaHR0cHM6Ly9uZXh0anMub3JnL2RvY3NcIiBjbGFzc05hbWU9XCJjYXJkXCI+XG5cdFx0XHRcdFx0XHQ8aDM+RG9jdW1lbnRhdGlvbiAmcmFycjs8L2gzPlxuXHRcdFx0XHRcdFx0PHA+RmluZCBpbi1kZXB0aCBpbmZvcm1hdGlvbiBhYm91dCBOZXh0LmpzIGZlYXR1cmVzIGFuZCBBUEkuPC9wPlxuXHRcdFx0XHRcdDwvYT5cblxuXHRcdFx0XHRcdDxhIGhyZWY9XCJodHRwczovL25leHRqcy5vcmcvbGVhcm5cIiBjbGFzc05hbWU9XCJjYXJkXCI+XG5cdFx0XHRcdFx0XHQ8aDM+TGVhcm4gJnJhcnI7PC9oMz5cblx0XHRcdFx0XHRcdDxwPkxlYXJuIGFib3V0IE5leHQuanMgaW4gYW4gaW50ZXJhY3RpdmUgY291cnNlIHdpdGggcXVpenplcyE8L3A+XG5cdFx0XHRcdFx0PC9hPlxuXG5cdFx0XHRcdFx0PGFcblx0XHRcdFx0XHRcdGhyZWY9XCJodHRwczovL2dpdGh1Yi5jb20vdmVyY2VsL25leHQuanMvdHJlZS9tYXN0ZXIvZXhhbXBsZXNcIlxuXHRcdFx0XHRcdFx0Y2xhc3NOYW1lPVwiY2FyZFwiXG5cdFx0XHRcdFx0PlxuXHRcdFx0XHRcdFx0PGgzPkV4YW1wbGVzICZyYXJyOzwvaDM+XG5cdFx0XHRcdFx0XHQ8cD5EaXNjb3ZlciBhbmQgZGVwbG95IGJvaWxlcnBsYXRlIGV4YW1wbGUgTmV4dC5qcyBwcm9qZWN0cy48L3A+XG5cdFx0XHRcdFx0PC9hPlxuXG5cdFx0XHRcdFx0PGFcblx0XHRcdFx0XHRcdGhyZWY9XCJodHRwczovL3ZlcmNlbC5jb20vaW1wb3J0P2ZpbHRlcj1uZXh0LmpzJnV0bV9zb3VyY2U9Y3JlYXRlLW5leHQtYXBwJnV0bV9tZWRpdW09ZGVmYXVsdC10ZW1wbGF0ZSZ1dG1fY2FtcGFpZ249Y3JlYXRlLW5leHQtYXBwXCJcblx0XHRcdFx0XHRcdGNsYXNzTmFtZT1cImNhcmRcIlxuXHRcdFx0XHRcdD5cblx0XHRcdFx0XHRcdDxoMz5EZXBsb3kgJnJhcnI7PC9oMz5cblx0XHRcdFx0XHRcdDxwPlxuXHRcdFx0XHRcdFx0XHRJbnN0YW50bHkgZGVwbG95IHlvdXIgTmV4dC5qcyBzaXRlIHRvIGEgcHVibGljIFVSTCB3aXRoIFZlcmNlbC5cblx0XHRcdFx0XHRcdDwvcD5cblx0XHRcdFx0XHQ8L2E+XG5cdFx0XHRcdDwvZGl2PlxuXHRcdFx0PC9tYWluPlxuXG5cdFx0XHQ8Zm9vdGVyPlxuXHRcdFx0XHQ8YVxuXHRcdFx0XHRcdGhyZWY9XCJodHRwczovL3ZlcmNlbC5jb20/dXRtX3NvdXJjZT1jcmVhdGUtbmV4dC1hcHAmdXRtX21lZGl1bT1kZWZhdWx0LXRlbXBsYXRlJnV0bV9jYW1wYWlnbj1jcmVhdGUtbmV4dC1hcHBcIlxuXHRcdFx0XHRcdHRhcmdldD1cIl9ibGFua1wiXG5cdFx0XHRcdFx0cmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiXG5cdFx0XHRcdD5cblx0XHRcdFx0XHRQb3dlcmVkIGJ5eycgJ31cblx0XHRcdFx0XHQ8aW1nIHNyYz1cIi92ZXJjZWwuc3ZnXCIgYWx0PVwiVmVyY2VsXCIgY2xhc3NOYW1lPVwibG9nb1wiIC8+XG5cdFx0XHRcdDwvYT5cblx0XHRcdDwvZm9vdGVyPlxuXG5cdFx0XHQ8c3R5bGUganN4PntgXG4gICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMC41cmVtO1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICB9XG4gICAgICAgIG1haW4ge1xuICAgICAgICAgIHBhZGRpbmc6IDVyZW0gMDtcbiAgICAgICAgICBmbGV4OiAxO1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICB9XG4gICAgICAgIGZvb3RlciB7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgaGVpZ2h0OiAxMDBweDtcbiAgICAgICAgICBib3JkZXItdG9wOiAxcHggc29saWQgI2VhZWFlYTtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIH1cbiAgICAgICAgZm9vdGVyIGltZyB7XG4gICAgICAgICAgbWFyZ2luLWxlZnQ6IDAuNXJlbTtcbiAgICAgICAgfVxuICAgICAgICBmb290ZXIgYSB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICB9XG4gICAgICAgIGEge1xuICAgICAgICAgIGNvbG9yOiBpbmhlcml0O1xuICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgfVxuICAgICAgICAudGl0bGUgYSB7XG4gICAgICAgICAgY29sb3I6ICMwMDcwZjM7XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICB9XG4gICAgICAgIC50aXRsZSBhOmhvdmVyLFxuICAgICAgICAudGl0bGUgYTpmb2N1cyxcbiAgICAgICAgLnRpdGxlIGE6YWN0aXZlIHtcbiAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbiAgICAgICAgfVxuICAgICAgICAudGl0bGUge1xuICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICBsaW5lLWhlaWdodDogMS4xNTtcbiAgICAgICAgICBmb250LXNpemU6IDRyZW07XG4gICAgICAgIH1cbiAgICAgICAgLnRpdGxlLFxuICAgICAgICAuZGVzY3JpcHRpb24ge1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgfVxuICAgICAgICAuZGVzY3JpcHRpb24ge1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjU7XG4gICAgICAgICAgZm9udC1zaXplOiAxLjVyZW07XG4gICAgICAgIH1cbiAgICAgICAgY29kZSB7XG4gICAgICAgICAgYmFja2dyb3VuZDogI2ZhZmFmYTtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgICAgICAgcGFkZGluZzogMC43NXJlbTtcbiAgICAgICAgICBmb250LXNpemU6IDEuMXJlbTtcbiAgICAgICAgICBmb250LWZhbWlseTogTWVubG8sIE1vbmFjbywgTHVjaWRhIENvbnNvbGUsIExpYmVyYXRpb24gTW9ubyxcbiAgICAgICAgICAgIERlamFWdSBTYW5zIE1vbm8sIEJpdHN0cmVhbSBWZXJhIFNhbnMgTW9ubywgQ291cmllciBOZXcsIG1vbm9zcGFjZTtcbiAgICAgICAgfVxuICAgICAgICAuZ3JpZCB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIGZsZXgtd3JhcDogd3JhcDtcbiAgICAgICAgICBtYXgtd2lkdGg6IDgwMHB4O1xuICAgICAgICAgIG1hcmdpbi10b3A6IDNyZW07XG4gICAgICAgIH1cbiAgICAgICAgLmNhcmQge1xuICAgICAgICAgIG1hcmdpbjogMXJlbTtcbiAgICAgICAgICBmbGV4LWJhc2lzOiA0NSU7XG4gICAgICAgICAgcGFkZGluZzogMS41cmVtO1xuICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICAgICAgY29sb3I6IGluaGVyaXQ7XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNlYWVhZWE7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICAgICAgICB0cmFuc2l0aW9uOiBjb2xvciAwLjE1cyBlYXNlLCBib3JkZXItY29sb3IgMC4xNXMgZWFzZTtcbiAgICAgICAgfVxuICAgICAgICAuY2FyZDpob3ZlcixcbiAgICAgICAgLmNhcmQ6Zm9jdXMsXG4gICAgICAgIC5jYXJkOmFjdGl2ZSB7XG4gICAgICAgICAgY29sb3I6ICMwMDcwZjM7XG4gICAgICAgICAgYm9yZGVyLWNvbG9yOiAjMDA3MGYzO1xuICAgICAgICB9XG4gICAgICAgIC5jYXJkIGgzIHtcbiAgICAgICAgICBtYXJnaW46IDAgMCAxcmVtIDA7XG4gICAgICAgICAgZm9udC1zaXplOiAxLjVyZW07XG4gICAgICAgIH1cbiAgICAgICAgLmNhcmQgcCB7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMS4yNXJlbTtcbiAgICAgICAgICBsaW5lLWhlaWdodDogMS41O1xuICAgICAgICB9XG4gICAgICAgIC5sb2dvIHtcbiAgICAgICAgICBoZWlnaHQ6IDFlbTtcbiAgICAgICAgfVxuICAgICAgICBAbWVkaWEgKG1heC13aWR0aDogNjAwcHgpIHtcbiAgICAgICAgICAuZ3JpZCB7XG4gICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG5cblx0XHRcdDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgIGh0bWwsXG4gICAgICAgIGJvZHkge1xuICAgICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsIFNlZ29lIFVJLCBSb2JvdG8sXG4gICAgICAgICAgICBPeHlnZW4sIFVidW50dSwgQ2FudGFyZWxsLCBGaXJhIFNhbnMsIERyb2lkIFNhbnMsIEhlbHZldGljYSBOZXVlLFxuICAgICAgICAgICAgc2Fucy1zZXJpZjtcbiAgICAgICAgfVxuICAgICAgICAqIHtcbiAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG5cdFx0PC9kaXY+XG5cdClcbn1cbiJdLCJuYW1lcyI6WyJIZWFkIiwiSG9tZSIsImRpdiIsInRpdGxlIiwibGluayIsInJlbCIsImhyZWYiLCJtYWluIiwiaDEiLCJhIiwicCIsImNvZGUiLCJoMyIsImZvb3RlciIsInRhcmdldCIsImltZyIsInNyYyIsImFsdCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/index.js\n");
 
 /***/ }),
 
-/***/ 3280:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/app-router-context.js");
-
-/***/ }),
-
-/***/ 2796:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/head-manager-context.js");
-
-/***/ }),
-
-/***/ 4014:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
-
-/***/ }),
-
-/***/ 8524:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/is-plain-object.js");
-
-/***/ }),
-
-/***/ 8020:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/mitt.js");
-
-/***/ }),
-
-/***/ 4406:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/page-path/denormalize-page-path.js");
-
-/***/ }),
-
-/***/ 4964:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router-context.js");
-
-/***/ }),
-
-/***/ 1751:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
-
-/***/ }),
-
-/***/ 6220:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/compare-states.js");
-
-/***/ }),
-
-/***/ 299:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
-
-/***/ }),
-
-/***/ 3938:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
-
-/***/ }),
-
-/***/ 9565:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
-
-/***/ }),
-
-/***/ 5789:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
-
-/***/ }),
-
-/***/ 1897:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
-
-/***/ }),
-
-/***/ 1428:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
-
-/***/ }),
-
-/***/ 8854:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
-
-/***/ }),
-
-/***/ 1292:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
-
-/***/ }),
-
-/***/ 4567:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
-
-/***/ }),
-
-/***/ 979:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
-
-/***/ }),
-
-/***/ 3297:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
-
-/***/ }),
-
-/***/ 6052:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
-
-/***/ }),
-
-/***/ 4226:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
-
-/***/ }),
-
-/***/ 5052:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
-
-/***/ }),
-
-/***/ 9232:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/utils.js");
-
-/***/ }),
-
-/***/ 968:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
 /***/ ((module) => {
 
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ 6689:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ }),
 
-/***/ 6405:
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
 /***/ ((module) => {
 
-module.exports = require("react-dom");
-
-/***/ }),
-
-/***/ 997:
-/***/ ((module) => {
-
-module.exports = require("react/jsx-runtime");
+module.exports = require("styled-jsx/style");
 
 /***/ })
 
@@ -262,7 +60,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [210,676,664,399], () => (__webpack_exec__(4369)));
+var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
 module.exports = __webpack_exports__;
 
 })();
