@@ -4,7 +4,7 @@ export default function SubLayout({ children }) {
   return (
     <div>
       <h2>
-        <Link href="/">
+        <Link href="/" className="title">
           Home
         </Link>
       </h2>
