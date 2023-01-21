@@ -1,6 +1,6 @@
 import styles from 'styles/Home.module.css'
-import Layout from "component/Layout";
-import SubLayout from "component/SubLayout";
+import Layout from "components/Layout";
+import SubLayout from "components/SubLayout";
 import { useRouter } from "next/router";
 import Link from "next/link";
 

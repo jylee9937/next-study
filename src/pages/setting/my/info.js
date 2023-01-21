@@ -1,6 +1,6 @@
 import styles from 'styles/Home.module.css'
-import Layout from "component/Layout";
-import SubLayout from "component/SubLayout";
+import Layout from "components/Layout";
+import SubLayout from "components/SubLayout";
 import {useState} from "react";
 import {useRouter} from "next/router";
 
@@ -26,18 +26,21 @@ export default function MyInfo() {
 				setClicked(true)
 				location.replace("/setting/my/info?status=replace")
 			}}>edit(replace)</button>
+			<p>로컬 state 유지 안되</p>
 			<br/>
 			<button onClick={() => {
 				alert("edit");
 				setClicked(true)
 				router.push("/setting/my/info?status=push")
 			}}>edit(push)</button>
+			<p>로컬 state 유지, 데이터 패칭 일어남</p>
 			<br/>
 			<button onClick={() => {
 				alert("edit");
 				setClicked(true)
 				router.push("/setting/my/info?status=shallow", undefined, {shallow: true})
 			}}>edit(shallow)</button>
+			<p>로컬 state 유지, 데이터 패칭 일어나지 않음</p>
 		</>
 	)
 }

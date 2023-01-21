@@ -2813,7 +2813,7 @@
           o = () => {
             if (n) {
               let e = Error(
-                'Abort fetching component for route: "'.concat(t, '"')
+                'Abort fetching components for route: "'.concat(t, '"')
               )
               throw ((e.cancelled = !0), e)
             }
